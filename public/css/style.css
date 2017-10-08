@@ -1,0 +1,328 @@
+@font-face{
+  font-family: Bitter;
+  src: url(../fonts/Bitter-Regular.ttf);
+}
+
+h1{
+  text-align: center;
+}
+
+textarea{
+  width: 100%;
+}
+
+body{
+  background: #111c2d;
+}
+
+th{
+  text-align: center;
+}
+
+.topictitle:link{
+  color:#7E7F8C;
+  text-decoration: none;
+}
+
+.topictitle:active{
+  color:#7E7F8C;
+  text-decoration: none;
+}
+
+.topictitle:hover{
+  color:#7E7F8C;
+  text-decoration: none;
+}
+
+.topictitle:visited{
+  color:#7E7F8C;
+  text-decoration: none;
+}
+
+
+.timeplacement{
+  font-family: Bitter;
+  font-size: 12px;
+  color: #7e7f8c;
+  margin: -10px 0px -5px 0px;
+  text-align: right;
+}
+
+.inFavor:link{
+  color:#dddddd;
+  text-decoration: none;
+}
+
+.inFavor:active{
+  color:#dddddd;
+  text-decoration: none;
+}
+
+.inFavor:hover{
+  color:#dddddd;
+  text-decoration: none;
+}
+
+.inFavor:visited{
+  color:#dddddd;
+  text-decoration: none;
+}
+
+.headerBar{
+  font-size: 25px;
+  font-family: Bitter;
+  background: #0b1019;
+  color: #dddddd;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  top: 0px;
+  border-bottom: 1px solid #30313d;
+  z-index: 1;
+}
+
+.headerTitle{
+  margin-left: 10%;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.headerRight{
+  float: right;
+  margin-top: 5px;
+  margin-right: 10%;
+}
+
+.showPos{
+  cursor:pointer;
+}
+
+.issueContainer{
+  border: 1px solid #30313d;
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 25px;
+  background-color: #0b1019;
+}
+
+.issueDesc{
+  color: #7e7f8c;
+  font-family: monospace;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+.issueHeader{
+  color: #dddddd;
+  font-family: Bitter;
+}
+
+.modalDesc{
+  color: #777;
+  font-family: monospace;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.modal-header{
+  color: #7e7f8c;
+  border-radius: 0;
+}
+
+.modal-title{
+  text-align: center;
+  font-family: Bitter;
+  font-size: 20px;
+  color: #444;
+}
+
+.modal-content{
+  border-radius: 0px;
+  background: #fcfbf9;
+}
+
+.commentsContainer{
+  background: #0B1019;
+  border: 1px solid #30313d;
+  float: none;
+  margin: 0 auto;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 80%;
+  height: 100%;
+}
+
+.comments_form{
+  color: white;
+  font-family: Bitter;
+  text-align: center;
+}
+
+.formCtrl{
+  display: none;
+}
+
+.comments_section{
+  margin-top: 50px;
+  text-align: left;
+}
+
+.comment_box{
+  font-family: monospace;
+  margin: 10px 10px 25px;
+  color: #e2edff;
+  word-wrap: break-word;
+  background: #181d26;
+  padding: 10px 10px;
+}
+
+.form-control{
+  border-radius: 0;
+  resize: none;
+}
+
+.simplebox{
+  color: #151d2b;
+  outline: none;
+  resize: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 10px;
+}
+
+.simpleTextarea{
+  color: #151d2b;
+  outline: none;
+  resize: none;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 10px;
+}
+
+.simpleButton{
+  background: #243859;
+  color: #e2edff;
+  outline: none;
+  resize: none;
+  border: none !important;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 5px;
+}
+
+.simpleButton:hover{
+  background: #2c456d;
+}
+
+.simpleButton:active{
+  color: #999;
+  background: #212f44;
+}
+
+.simpleselect {
+  color: white;
+  outline: none;
+  float: right;
+  background: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.simpleselect option{
+  color: black;
+}
+
+.popover{
+  position: fixed;
+}
+
+.popover-title{
+    color: blue;
+    font-size: 15px;
+}
+.popover-content{
+    color: red;
+    font-size: 10px;
+}
+
+.loginContainerOuter {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.loginContainermiddle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.loginContainerinner {
+    border: 1px solid #30313d;
+    padding:20px 20px 40px 20px;
+    background: #0B1019;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.loginHeader{
+  font-size: 30px;
+  font-family: Bitter;
+  background: #0b1019;
+  color: #dddddd;
+  margin-bottom: 25px;
+}
+
+.simpleinput{
+  color: #151d2b;
+  outline: none;
+  width: 100%;
+
+  padding: 10px;
+  resize: none;
+  border: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.loginButton{
+  background: #243859;
+  color: #e2edff;
+  font-size: 20px;
+  outline: none;
+  width: 100%;
+  border: none !important;
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  padding: 5px;
+}
+
+.loginButton:hover{
+  background: #2c456d;
+}
+
+.loginButton:active{
+  color: #999;
+  background: #212f44;
+}
+
+.input-group-addon{
+  border-radius: 0px !important;
+  background: #e0e0e0;
+}
+
+.registerlabel{
+  color:#ddd;
+}
